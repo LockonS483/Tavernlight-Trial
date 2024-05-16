@@ -1,0 +1,6 @@
+MainWindow
+  id: jumpMain
+  !text: tr('Jump')
+  size: 280 260
+  @onEscape: modules.jump.closing()
+

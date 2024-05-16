@@ -1,0 +1,10 @@
+Module
+  name: jump
+  description: jump button minigame
+  author: Lock
+  website: https://github.com/LockonS483/
+  sandboxed: true
+  dependencies: [game_interface]
+  scripts: [ jump ]
+  @onLoad: init()
+  @onUnload: terminate()
